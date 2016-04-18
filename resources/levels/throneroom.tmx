@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="31" height="51" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="FloorAndWalls" tilewidth="32" tileheight="32">
+  <image source="../sprites/derp.png" width="352" height="384"/>
+ </tileset>
+ <tileset firstgid="133" name="RPGmakerTiles" tilewidth="32" tileheight="32">
+  <image source="../sprites/xxxx2rpgmakertiles.png" width="2048" height="4032"/>
+ </tileset>
+ <tileset firstgid="8197" name="pentagram4" tilewidth="32" tileheight="32">
+  <image source="../sprites/pentagram4.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="8222" name="playersprites" tilewidth="32" tileheight="32">
+  <image source="../sprites/playersprites.png" width="384" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="31" height="51">
+  <data encoding="base64" compression="zlib">
+   eJzt17sKg0AQheEV0kVIl1cyo7EyMSm9vP87eIQVLKwcmFN4ip+p3OFjLbRIKd0I3VGJHoSepL1KXakOfRyzcjz/QkaaXrdnyi233HLLzXXXqEHvXBvo/qIe/XL/QPfRbgt2b227I9wDGnfNhPveu6PuW2655ZZbbrk9biO6TW695/k8lttOnONxr9/mE8k9Jd9/yQKLYqJW
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="31" height="51">
+  <data encoding="base64" compression="zlib">
+   eJzNV7ly1EAQHVPFjU9WmNVqxdoxxMaGBGcE3CSQwF+Andk5Z2YnHD8Buxw25JyZnXD8BOxymKcqd6nd6pmRtmSLV9UlzUx3v3manpE0YKrDpGi/qBvzsp6227jv1E0G5Ocbt7UTjIuYXxj/zXy6uO8pucnPN25rT5is7lOhMafDtD2N+5nQZEB+vnFb+7jJ6iY8ahrzGDYH/3klN8E1Tjk0kO4VxK6K+C+I+Sri7tSMuVuzz0NCy/EKPK/DVPdGwtvY6nMsNqYVb+17B973Bbi1HH/A9TfU15twAzE3Yc8w7+ebcx8MjBkK/Jxt+HeaaQ4NrvV+gtinsB+wn5vc58B7Pgd3F/69ZpqD4wrirwZu3d8Q8x02hXmftMw9wVmlbxr+M3GaQwPXLWuS5nwLOW47uDXMwX8+zurmHFy3rEk+Z77mRSB1cw6uW9YknzNf8yKQujkH1y1rks+Zr/kC9uKi2I+8rw2/TpzNITm4bpojrQmfM1/zN+B4K7h5Xxd+vdifk+umOdKa2Gp0IDJmV+Tv8+XUdNOaaHszwRlwzEb+Pl9OTTetiU33AjgWI3+fL6emm64T8J207OvdLWP2wPbC9sH2t3Q/yiFz23S7ziLCAXAdhB2CDcKGLNxSf17dLgyDawQ2ChuDHfZwl6m7Bq4AdgQ2Djvq4S5Tdx1cIawBi2BND3eZuouiDN1LOLuWG/qYC/3oXsGeXY3S6xp41z3cMiaPbrkXE2wksc30Wsc1VM6QBEvoX46yMVw3PzO07xbXel9DvusW7jX0r1vGtJza95rrPOsXWk7X91oCbe18yBvj+k5NoK2dD3ljfLolqJ6Kjmnw6c7sMUc90VjeZ+7TvZ3P3Kd7O8F138M/3n3xn1ekzh8g9mGtvzr/gLiPgls+P1c9fULs51p/dT6M/7MRz3+eq9ZGETuW4z+RwHVfQNxFEVvkmV9C7OWgmjqn92sVdZ7n/cpR5rnmer9qKKrbVWuu96uGorrLxP9yru0U6PysQjedn1XopvOzCt10fia6T+wwN2EKNlsRd8L7D929Syk=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="31" height="51">
+  <data encoding="base64" compression="zlib">
+   eJztzjERACAMALFKqSykAOqZGFnpwSUG/iMAAPhVy+oDAABgG3m/2QuaJzOrD3jBAtBxAkQ=
+  </data>
+ </layer>
+</map>

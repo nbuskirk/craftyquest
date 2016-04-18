@@ -1,0 +1,8 @@
+/*!
+* SpriteText Component for CraftyJS
+* https://github.com/starmelt/crafty_spritetext
+*
+* Copyright 2012 by starmelt. 
+* Licensed under the MIT license.
+*/
+Crafty.c("SpriteText",{_defaultMapping:" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_´abcdefghijklmnopqrstuvwxyz{|}~",_registeredSpriteFonts:{},init:function(){this.bind("Change",function(d){var o=this._registeredSpriteFonts[this._font],g,c,m,f,k,h,j,a,b,n;if(o&&this._text&&this._changed){g=this._text.split("");for(f in this._entities){this._entities[f].destroy()}this._entities=[];b=this.x;n=this._text.length*o;if(this._align==="center"){b+=(this.w-n)/2}if(this._align==="right"){b+=(this.w-n)}for(f in g){c=g[f];m=b+f*o;k=this.has("DOM")?"DOM":"Canvas";j=this.charName(this._font,c) in Crafty.components();a=j?c:c.toUpperCase();h=Crafty.e("2D, "+k+", "+this.charName(this._font,a)).attr({x:m,y:this.y,z:this.z,w:o,h:o});this._entities.push(h)}}})},text:function(a){if(a===undefined){return this._text}if(this._text!=a){this._text=""+a;this.trigger("Change")}return this},font:function(a){if(a===undefined){return this._font}if(this._font!=a){this._font=a;this.trigger("Change")}return this},align:function(a){if(a===undefined){return this._align}if(this._align!=a){this._align=a;this.trigger("Change")}return this},registerFont:function(b,m,c,k){if(!this._registeredSpriteFonts[b]){var e=Crafty.e("Image").image(c),j=Math.floor(e.img.naturalWidth/m),f=Math.floor(e.img.naturalHeight/m),a=k||this._defaultMapping,d={},l,i,g;e.destroy();for(i=0;i<j;i++){for(g=0;g<f;g++){l=a.charAt(i+g*j);d[this.charName(b,l)]=[i,g]}}Crafty.sprite(m,c,d);this._registeredSpriteFonts[b]=m}return this.font(b)},charName:function(a,b){return"_"+a+"_"+b}});

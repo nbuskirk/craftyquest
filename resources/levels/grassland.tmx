@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="components" value="gametile"/>
+ </properties>
+ <tileset firstgid="1" name="rpgmaker" tilewidth="32" tileheight="32">
+  <image source="../../../../Desktop/game/resources/sprites/xxxx2rpgmakertiles.png" width="2048" height="4032"/>
+  <tile id="1284">
+   <properties>
+    <property name="components" value="Solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="8065" name="playersprites" tilewidth="32" tileheight="32">
+  <image source="../sprites/playersprites.png" width="768" height="512"/>
+  <tile id="200">
+   <properties>
+    <property name="Components" value="Solid"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="Components" value="Solid"/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="Components" value="Solid"/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="Components" value="Solid"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 2" width="15" height="10">
+  <properties>
+   <property name="z" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJx9kTEOACEIBG2uxJ/B/59zmlhMJmixQdBZIM5vjPlQLsU5O27VRdF4BeqFPPQ+zz251CzO2TeR0+/Fskc1DFnPfeNYY98UMxu/ru5dC/5mvZM9vZPn7v6D+zFam/0B9EgdUw==
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="15" height="10">
+  <properties>
+   <property name="z" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzVjz0OgCAMRpsggz8JXTyRLgq30k1vpZseym+wwRDo7kveRB5tTU9UwRo2sIUdzNEy3qB5mwGOcIIz9DAUWo8ucGy0OSkbup3jjtqclAvdzXFHuUFjcUSrK9+gcaA7M63c8MVa/S9BbvgTD/28EEk=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="15" height="10">
+  <properties>
+   <property name="z" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AaeCgwMXgrk6U0E6ksiU+9gAgCe2wHX
+  </data>
+ </layer>
+</map>
